@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	/*box-sizing: border-box;*/
 
 }
 
@@ -57,7 +58,7 @@ header nav ul li a{
 	text-align: center;
 }
 p{
-	width: 100%;
+	/*width: 100%;*/
 	margin: auto;
 	padding: 10px;
 	font-family: 'roboto';
@@ -66,7 +67,6 @@ p{
 }
 .main {
 	width: 50%;
-	height: 100%;
 	margin: auto;
 	background: url('img/mainbackground.jpeg') center no-repeat;
 	background-size: cover;
@@ -85,9 +85,11 @@ p{
 }
 
 .headparagraf {
+	width: 100%;
+	margin: auto;
 	font-family: 'roboto';
 	background:	#5AA682;
-	padding: 5px 0px 5px 10px;
+	padding: 5px 0px 0px 10px;
 }
 
 .heroestype  a {
@@ -122,6 +124,7 @@ footer h5 a{
 	background-color: black;
 	color: white;
 }
+
 
 
 
