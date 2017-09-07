@@ -1,0 +1,128 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+@font-face {
+	font-family: 'sketch';
+	src: url('fonts/sketch_3d/Sketch 3D.otf')
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url('fonts/Roboto/Roboto-Regular.ttf');
+}
+header {
+	padding: 10px;
+	height: 150px;
+	background: url("img/welcomebackground.jpeg") center no-repeat;
+	background-size: cover;
+}
+
+header h1{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-family: 'sketch';
+	padding-top: 40px;
+}
+
+header nav{
+	float: left;
+}
+header nav ul li {
+	padding: 10px;
+	font-family: 'sketch';
+	font-size: 30px;
+	display: inline-block;
+}
+
+header nav ul li a{
+	text-decoration-line: none;
+	color: white;
+}
+
+.container {
+	width: 100%;
+	background: #E8E4F2;
+}
+
+.title {
+	margin: auto;
+	background: url(img/title.jpeg) no-repeat center;
+	background-size: cover;
+}
+.title h2,h5{
+	text-align: center;
+}
+p{
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+	font-family: 'roboto';
+	font-size: 15px;
+	color: white;
+}
+.main {
+	width: 50%;
+	height: 100%;
+	margin: auto;
+	background: url('img/mainbackground.jpeg') center no-repeat;
+	background-size: cover;
+	overflow: scroll;
+}
+.main h3{
+	color: white;
+
+}
+
+.main a{
+	outline: none;
+	color: blue;
+	font-style: italic;
+	text-decoration-line: none;
+}
+
+.headparagraf {
+	font-family: 'roboto';
+	background:	#5AA682;
+	padding: 5px 0px 5px 10px;
+}
+
+.heroestype  a {
+	padding: 10px;
+	color: red;
+	font-style: italic;
+	text-decoration-line: none;
+}
+
+.roletype  a {
+	padding: 10px;
+	color: red;
+	font-style: italic;
+	text-decoration-line: none;
+}
+
+.attacktype  a {
+	padding: 10px;
+	color: red;
+	font-style: italic;
+	text-decoration-line: none;
+}
+legend {
+	color: white;
+}
+
+footer h5 a{
+	color: blue;
+	text-decoration-line: none;
+}
+#foot{
+	background-color: black;
+	color: white;
+}
+
+
+
+
