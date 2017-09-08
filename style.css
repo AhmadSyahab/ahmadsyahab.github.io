@@ -5,6 +5,11 @@
 
 }
 
+body {
+	/*width: 100%;
+	background: url(img/bodybackground.jpg) center no-repeat;
+	background-size: cover;*/
+}
 @font-face {
 	font-family: 'sketch';
 	src: url('fonts/sketch_3d/Sketch 3D.otf')
@@ -15,10 +20,12 @@
 	src: url('fonts/Roboto/Roboto-Regular.ttf');
 }
 header {
+	width: 100%;
 	padding: 10px;
 	height: 150px;
 	background: url("img/welcomebackground.jpeg") center no-repeat;
 	background-size: cover;
+	position: fixed;
 }
 
 header h1{
@@ -44,9 +51,14 @@ header nav ul li a{
 	color: white;
 }
 
+.main p{
+	color: white;
+}
 .container {
+	padding-top: 170px;
 	width: 100%;
-	background: #E8E4F2;
+	background: url(img/containerbackground.jpg) center no-repeat;
+	background-size: cover;
 }
 
 .title {
@@ -54,9 +66,18 @@ header nav ul li a{
 	background: url(img/title.jpeg) no-repeat center;
 	background-size: cover;
 }
-.title h2,h5{
+.title h2{
 	text-align: center;
 }
+
+.title h5{
+	color: black;
+	widows: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+
 p{
 	/*width: 100%;*/
 	margin: auto;
@@ -73,22 +94,25 @@ p{
 	overflow: scroll;
 }
 .main h3{
-	color: white;
+	text-align: center;
+	color: #161614;
 
 }
 
 .main a{
 	outline: none;
-	color: blue;
+	color: #CE5A01;
 	font-style: italic;
 	text-decoration-line: none;
+	text-align: left;
 }
 
 .headparagraf {
 	width: 100%;
 	margin: auto;
 	font-family: 'roboto';
-	background:	#5AA682;
+	background:	url("img/headparagraf.jpeg") center no-repeat;
+	background-size: cover;
 	padding: 5px 0px 5px 10px;
 }
 
@@ -112,20 +136,129 @@ p{
 	font-style: italic;
 	text-decoration-line: none;
 }
-legend {
-	color: white;
+
+footer {
+	width: 100%;
 }
 
-footer h5 a{
+footer h5 {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	color: black;
+}
+footer a{
 	color: blue;
 	text-decoration-line: none;
 }
+
+
 #foot{
 	background-color: black;
 	color: white;
 }
 
+/*about.html CSS*/
 
 
+.aboutcontainer {
+	width: 100%;
+	display: inline-block;
+}
+.leftpage {
+	padding-top: 170px;
+	background: url(img/whitebackground.jpeg) center no-repeat;
+	background-size: cover;
+	border: 1px black fixed;
+	width: 50%;
+	height: 800px;
+	float: left;
+	overflow: scroll;
+}
 
+.leftpage h3,p{
+	padding: 10px;
+	color: black;
+}
 
+.leftpage h4,h5{
+	text-align: center;
+}
+.leftpage ol {
+	list-style-type: upper-roman;
+}
+.leftpage ol li{
+	padding: 10px;
+}
+
+.righttoppage {
+	color: #DFDFDF;
+	padding-top: 170px;
+	background: url("img/righttopbackground.jpeg") center no-repeat;
+	background-size: cover;
+	width: 50%;
+	height: 400px;
+	float: right;
+	overflow: scroll;
+}
+
+.righttoppage h4,h5{
+	padding: 10px;
+	text-align: center;
+}
+.righttoppage p{
+	padding: 10px;
+	color: #DFDFDF;
+}
+.righttoppage h3{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.rightbotpage {
+	background: url("img/theinternational.jpg") center no-repeat;
+	background-size: cover;
+	border: 1px black fixed;
+	width: 50%;
+	height: 400px;
+	float: right;
+}
+
+.rightbotpage {
+	color: #E5E5E5;
+	overflow: scroll;
+}
+
+.titleti h3,h5{ 
+	width: 200px;
+	color: #E5E5E5;
+	text-align: center;
+	margin: left;
+	font-style: italic;
+	font-style: bold;
+}
+
+.tibox {
+	padding-top: 15px;
+}
+.rightbotpage h3{
+	padding: 30px 0px 0px 10px;
+}
+.rightbotpage h5{
+	font-family: 'roboto';
+	text-align: left;
+}
+
+.rightbotpage h4{
+	padding: 15px 0px 0px 10px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.tiwinner {
+	text-decoration-line: none;
+	color: #B8AA9D;
+}
+
+.theinternational {
+	color: #54544B;
+}
